@@ -147,9 +147,7 @@ For this - you need to open TCP port 3300 in your AWS Web Console for your EC2 I
 
 You are supposed to know how to do it, if you have forgotten - refer to [Project 1](https://starter-pbl.darey.io/en/latest/) (Step 1 — Installing Apache and Updating the Firewall)
 
-Your Security group shall look like this:
 
-<img src="https://darey-io-nonprod-pbl-projects.s3.eu-west-2.amazonaws.com/project4/open_port_3300.png" width="936px" height="550px">
 
 Now you can access our Book Register web application from the Internet with a browser using Public IP address or Public DNS name.
  
@@ -157,13 +155,4 @@ Quick reminder how to get your server's Public IP and public DNS name:
 
 1. You can find it in your AWS web console in EC2 details
 2. Run `curl -s http://169.254.169.254/latest/meta-data/public-ipv4` for Public IP address or `curl -s http://169.254.169.254/latest/meta-data/public-hostname` for Public DNS name.
-
-This is how your Web Book Register Application will look like in browser:
-<img src="https://darey-io-nonprod-pbl-projects.s3.eu-west-2.amazonaws.com/project4/books_register.png" width="936px" height="550px">
-
-#### Congratulations!
-
-You have now completed all 'PBL Progressive' projects and are ready to move on to more complex and fun ['PBL Professional' projects](https://professional-pbl.darey.io/en/latest/)!!!
-
-<img src="https://darey-io-nonprod-pbl-projects.s3.eu-west-2.amazonaws.com/project4/celebrate.png" width="936px" height="550px">
 
